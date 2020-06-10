@@ -3,5 +3,8 @@ n2 = float(input('Digite o segundo número: '))
 
 if n1 > n2:
      print('O número {} é maior '.format(n1))
-else:
+elif n1 < n2:
      print('O número {} é maior. '.format(n2))
+else:
+    print('Os dois são Iguais')
+
